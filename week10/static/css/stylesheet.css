@@ -1,0 +1,222 @@
+body {
+  background: url('../img/background.jpg');
+  background-size: cover;
+}
+#monogram {
+  display: none;
+}
+#name {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#resume{
+  text-align: center;
+  align-items: center;
+}
+
+#button{
+  color:black;
+  background-color: #f3ff92;
+  border-radius: 3px;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right:300px;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Josefin Slab', serif;
+  border: 3px solid #f3ff92;
+  padding: 10px 10px 10px 10px;
+
+}
+
+iframe{
+  float:inherit;
+}
+.nav {
+  font-size: 20px;
+  font-family: 'Josefin Slab', serif;
+  display: block;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: black;
+  background-color: #f3ff92;
+  border-radius: 3px;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #4368b8;
+  background-color: transparent;
+}
+.navbar {
+  background: url('../img/background.jpg');
+  border: black 0px;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-family: 'Josefin Slab', serif;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #4368b8;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #00bfff;
+  background-color: transparent;
+}
+.navbar-default .navbar-brand {
+  color: #4368b8;
+}
+nav a {
+  display: block;
+}
+* {
+  margin: 0;
+}
+
+#heading{
+  font-family: 'Homemade Apple', cursive;
+  text-align: center;
+  margin-top: 30px;
+  color: #ffffac;
+}
+
+#me{
+  border-radius: 50%;
+  height:100px;
+  width:100px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#intro{
+  margin-top: 10px;
+  text-align: center;
+  color: #ffffac;
+  font-size: 20px;
+  font-family:'Josefin Slab', serif;
+  padding-bottom: 10px;
+}
+
+.gallery > img{
+height:500px;
+  overflow: hidden;
+}
+
+footer {
+  margin-top:30px;
+  background-color: transparent;
+  color: #f3ff92;
+}
+#footer {
+  background-color: transparent;
+  color: white;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+}
+.footer {
+  height: 4em;
+  width: 100% clear: both;
+}
+#social {
+  list-style: none;
+  display: inline-block;
+}
+#icon {
+  color: #f3ff92;
+}
+#icon:hover {
+  color: #4368b8;
+}
+.caption {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  color: #fff;
+  z-index: 100;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  left: 0;
+}
+.simple-caption {
+  height: 30px;
+  width: 150px;
+  display: block;
+  bottom: -30px;
+  line-height: 25pt;
+  text-align: center;
+}
+#social:hover .simple-caption {
+  -moz-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+@media (min-width: 1200px) {
+  .nav {
+    margin-left: 250px;
+  }
+  .navbar-brand {
+    display: none;
+  }
+  #monogram {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+    margin-right: auto;
+    display: block;
+  }
+  #name {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+  }
+
+}
+
+
+@media (min-width:600px) and (max-width: 1200px) {
+  .nav {
+    margin-left: 150px;
+  }
+  .navbar-brand {
+    display: none;
+  }
+  #monogram {
+    display: block;
+    width: 130px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+  }
+  #name {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  #intro{
+    padding-bottom: 30px;
+  }
+}
+
+#sub{
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  color:white;
+  font-size: 40px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
